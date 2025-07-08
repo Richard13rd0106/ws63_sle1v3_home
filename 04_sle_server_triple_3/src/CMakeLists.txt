@@ -1,0 +1,4 @@
+set(SOURCES "${SOURCES}"
+    "${CMAKE_CURRENT_SOURCE_DIR}/SLE_Server.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/SLE_Server_adv.c"
+    PARENT_SCOPE)

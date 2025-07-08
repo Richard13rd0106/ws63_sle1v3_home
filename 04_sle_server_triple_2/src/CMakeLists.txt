@@ -1,0 +1,5 @@
+set(SOURCES "${SOURCES}"
+    "${CMAKE_CURRENT_SOURCE_DIR}/SLE_LED_Server.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/SLE_LED_Server_adv.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/radar.c"
+    PARENT_SCOPE)
